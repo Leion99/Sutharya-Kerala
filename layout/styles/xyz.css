@@ -1,0 +1,90 @@
+body
+{ font-style=Times New Roman;
+   background-color: #cccc; 
+ 
+  }
+
+
+table td{ 
+    padding: 5px; 
+    background-color:mediumaquamarine; 
+  } 
+
+  table{
+      width: 100%;
+  }
+
+
+div.absolute {
+  position: absolute;
+  right: 150px;
+  width: 200px;
+  height: 120px;
+  border: 3px solid green;
+} 
+
+nav ul li{float: left;
+    list-style-type: none;
+    padding-left: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    color: palegreen;
+}
+
+nav{background-color: aqua;} 
+
+body{ background-color: rgb(25, 25, 83);
+     margin: 10px;
+     width: auto;
+     margin: 20px;
+    }
+
+
+.heading .data h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: oldlace;
+    text-align: center;
+}
+
+.heading .data img{
+    border-radius: 60%;
+    padding-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    block-size: 15pc;
+}
+
+h1{
+    color: mistyrose;
+}
+
+input{
+    width: 4pc;
+    height: 2pc;
+    border-radius: 40px;
+}
+th{
+    color: palegreen;
+}
+
+h3{color: powderblue   ;}
+
+.search{
+    width: 80%;
+}
+
+.footer {
+    background-color: antiquewhite;
+    margin-top: 16pc;
+}
+
+.footer .data ul li{
+    color: black;
+    list-style-type: none;
+}
+
+.ddd{
+    margin-left: 60pc;
+}

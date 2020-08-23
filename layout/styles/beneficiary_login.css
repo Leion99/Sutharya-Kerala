@@ -1,0 +1,114 @@
+
+
+.button {
+  border: 0;
+  outline: none;
+  border-radius: 0;
+  padding: 15px 0;
+  font-size: 20px;
+  font-weight: $bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  background: $main;
+  color: $white;
+  transition: all.5s ease;
+  -webkit-appearance: none;
+ 
+  &:hover,
+  &:focus {
+    background: $main-dark;
+  }
+}
+
+.button-block {
+  display: block;
+  width: 10%;
+  margin-left: 42pc;;
+  margin-top: 2pc;
+}
+
+.forgot {
+  margin-top: 8px;
+  text-align: right;
+  margin-right: 28pc;
+}
+.forgot a{color: aliceblue;}
+
+
+
+nav ul li{float: left;
+    list-style-type: none;
+    padding-left: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    color: palegreen;
+}
+
+nav{background-color: aqua;} 
+
+body{ background-color: rgb(25, 25, 83);
+     margin: 10px;
+     width: auto;
+     margin: 20px;
+    }
+
+
+.heading .data h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: oldlace;
+    text-align: center;
+}
+
+.heading .data img{
+    border-radius: 60%;
+    padding-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    block-size: 15pc;
+}
+
+#login h1{
+    color: beige;
+    text-align: center;
+}
+
+.field-wrap{
+    color: beige;
+    margin-left: 30%;
+    padding-top: 2pc;
+}
+
+.field-wrap input{
+    padding-left: 10pc;
+    
+}
+.field-wrap #wwe{
+    margin-left: 8pc;
+}
+
+.form ul li{
+    list-style-type: none;
+    display: inline;
+    text-align: justify;
+    padding-left: 9pc;
+    color: beige;
+    margin-left: 0pc;
+    padding-top: 3pc;
+}
+
+.form ul li a{
+    color: beige;
+
+}
+
+.form #wea{
+    margin-left: 26pc;
+}
+
+#fp a{
+    color: darkseagreen;
+    padding-top: 1pc;
+    text-align: center;
+}

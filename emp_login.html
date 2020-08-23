@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login </title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="layout/scripts/init-firebase.js"></script>
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="layout/vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="layout/vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="layout/vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="layout/vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="layout/vendor/select2/select2.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="layout/vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="layout/styles/emp_login.css">
+<!--===============================================================================================-->
+
+<script>   
+	function loginpage() {   
+		document.getElementsByClassName('.container-login111').show();  
+	}   
+	</script> 
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100 p-b-160 p-t-50">
+				<form class="login100-form validate-form" >
+					<span class="login100-form-title p-b-43">
+						Account Login
+					</span>
+					
+					<div class="wrap-input100 rs1 validate-input" data-validate = "Select a department from the list">
+						
+						
+						 <span class="label-input100">Department</span>
+						   <textarea id="mytext"></textarea>
+						   <span>
+						  	  <select id="dropdown" name="E_dept">
+									<option value="">Select a department</option>
+									<option value="text1">Agriculture Development &farmers welfare</option>
+									<option value="text2">Backward Community Development Department</option>
+									<option value="text3">CoastalShipping and Inland Navigation</option>
+									<option value="text5">co operaton</option>
+									<option value="text6">Election</option>
+									<option value="text7">Finance</option>
+									<option value="text8">Consumer Affair</option>
+									<option value="text9">Fisheries</option>
+									<option value="text10">Food and Civil Supplies</option>
+								</select>>
+						 </span>
+					</div>
+					
+					
+					<div class="wrap-input100 rs2 validate-input" data-validate="District is required">
+						
+						<span class="label-input100">District</span>
+						  <textarea id="mytext"></textarea>
+						   <span>
+						  	  <select id="dropdown" name="E_dist">
+									<option value="">Select a District</option>
+									<option value="text1">Thiruvanthapuram</option>
+									<option value="text2">Kollam</option>
+									<option value="text3">Pathanamthitta</option>
+									<option value="text5">Alappuzha</option>
+									<option value="text6">Kottayam</option>
+									<option value="text7">Idukki</option>
+									<option value="text8">Ernakulam</option>
+									<option value="text9">Thrissur</option>
+									<option value="text10">Palakkad</option>
+								</select>
+						 </span>
+					</div>
+
+					<div class="container-login100-form-btn">
+						<button  class="login100-form-btn">
+							<a href="#xyz">Proceed</a>
+						</button>
+
+					</div>
+					
+					
+					
+					
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<div class="limiter">
+		<div class="container-login111">
+			<div class="wrap-login111">
+				<div class="login111-form-title" id="xyz" style="background-image: url(images/bg-01.jpg);">
+					<span class="login111-form-title-1">
+						Sign In
+					</span>
+				</div>
+
+				<form class="login111-form validate-form">
+					<div class="wrap-input111 validate-input m-b-26" data-validate="Username is required">
+						<span class="label-input111">Username</span>
+						<input id="e" class="input111" type="text" name="username" placeholder="Enter username">
+						<span class="focus-input111"></span>
+					</div>
+
+					<div class="wrap-input111 validate-input m-b-18" data-validate = "Password is required">
+						<span class="label-input111">Password</span>
+						<input id="p" class="input111" type="password" name="pass" placeholder="Enter password">
+						<span class="focus-input111"></span>
+					</div>
+
+					<div class="flex-sb-m w-full p-b-30">
+						<div class="contact111-form-checkbox">
+							<input class="input-checkbox111" id="ckb1" type="checkbox" name="remember-me">
+							<label class="label-checkbox111" for="ckb1">
+								Remember me
+							</label>
+							<a href="#" class="txt1">
+								Forgot Password?</a>
+						</div>
+
+						<div>
+							
+							</a>
+						</div>
+					</div>
+
+					<script>
+						var e = document.getElementsById("e")
+						var p = document.getElementsById("p")
+					</script>
+
+					<div class="container-login111-form-btn">
+						<button class="login111-form-btn" type="submit" onclick="createUserWithEmailAndPassword(e, p)"><a href="dashboard_e.html">Login</a>
+							
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	
+
+	
+	
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+
+
+<!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-app.js"></script>
+
+  <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+  <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-analytics.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-firestore.js"></script>
+
+
+    // TODO: Replace the following with your app's Firebase project configuration
+	<script>
+    // TODO: Replace the following with your app's Firebase project configuration
+    	var firebaseConfig = {
+			apiKey: "AIzaSyAEHrUyq4vBxWQpbx-i9wNlArrUrx5sZ6I",
+			authDomain: "sutharya-kerala.firebaseapp.com",
+			databaseURL: "https://sutharya-kerala.firebaseio.com",
+			projectId: "sutharya-kerala",
+			storageBucket: "sutharya-kerala.appspot.com",
+			messagingSenderId: "790515362708",
+			appId: "1:790515362708:web:94927de77e9339cdb67d81",
+			measurementId: "G-QXRZ7MF9JD",
+		};
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  	
+  	</script>
+</body>
+</html>

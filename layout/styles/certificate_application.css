@@ -1,0 +1,65 @@
+nav ul li{float: left;
+    list-style-type: none;
+    padding-left: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    color: palegreen;
+}
+
+nav{background-color: aqua;} 
+
+body{ background-color: rgb(25, 25, 83);
+     margin: 10px;
+     width: auto;
+     margin: 20px;
+    }
+
+
+.heading .data h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: oldlace;
+    text-align: center;
+}
+
+.heading .data img{
+    border-radius: 60%;
+    padding-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    block-size: 15pc;
+}
+
+.wrapper .data h1{
+    color: #fff;
+    font-size: xx-large;
+    text-align: center;
+
+}
+
+.wrapper .data .tbl td{
+    color: #fff;
+    padding-top: 30px;
+    font-size: large;
+    padding-left: 30px;
+    ;
+}
+
+.wrapper .data .tbl button{
+    position: absolute;
+    border-radius: 30px;
+    width: 15pc;
+    height: 2.5pc;  
+    margin-left: 40%;
+}
+
+.footer {
+    background-color: yellowgreen;
+}
+
+.footer .base ul li{
+    color: white;
+    list-style-type: none;
+}
+

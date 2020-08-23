@@ -1,0 +1,63 @@
+nav ul li{float: left;
+    list-style-type: none;
+    padding-left: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    color: palegreen;
+}
+
+nav{background-color: aqua;} 
+
+body{ background-color: rgb(25, 25, 83);
+     margin: 10px;
+     width: auto;
+     margin: 20px;
+    }
+
+
+.heading .data h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: oldlace;
+    text-align: center;
+}
+
+.heading1 .data h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: oldlace;
+    text-align: center;
+}
+
+.heading .data img{
+    border-radius: 60%;
+    padding-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    block-size: 15pc;
+}
+td{
+    color: oldlace;
+    padding-top: 2pc;
+    font-size: large;
+    padding-left: 10pc;
+}
+
+input{
+    width: 50%;
+}
+table{
+    width: 100%;
+}
+#me{
+    color: oldlace;
+    margin-left: -6pc;
+}
+
+button{
+   margin-left: 2pc;
+   border-radius: 30px;
+   width: 7pc;
+   height: 3pc;
+}

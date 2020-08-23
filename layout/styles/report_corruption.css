@@ -1,0 +1,103 @@
+nav ul li{float: left; list-style-type: none;padding-left: 40px; font-size: 20px; color: oldlace;}
+
+nav{background-color: darkorchid;}
+
+body{ background-color: rgb(25, 25, 83);}
+
+.heading .data h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: oldlace;
+    text-align: center;
+}
+
+.heading .data img{
+    border-radius: 60%;
+    padding-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    block-size: 15pc;
+}
+
+.wrapper .data h1{
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.wrapper .data h3{
+    color: white;
+    text-align: center;
+}
+
+.form .data td{
+    color: white;
+    padding-top: 2pc;
+}
+
+.form .data form{
+    width: auto;
+    padding-top: 3pc;
+    padding-left: 10pc;
+}
+
+.form .data table{
+    width: 100%;
+    
+}
+
+.form .data #x{
+    width: 50pc;
+    height: 1.5pc;
+}
+
+.form .data #y{
+    width: 50pc;
+}
+
+.form .data #p{
+    width: 50pc;
+    height: 1.5pc;
+}
+.form .data #q{
+    width: 50pc;
+}
+
+.form .data #t{
+    width: 50pc;
+    height: 1.5pc;
+
+}
+
+.form .data #u{
+    width: 50pc;
+    height: 1.5pc;
+
+}
+
+.form .data #r{
+    text-align: center;
+    border-radius: 60px;
+    width: 10pc;
+    height: 3pc;
+    margin-left: 10pc ;
+}
+
+.form .data #s{
+    text-align: center;
+    border-radius: 60px;
+    width: 10pc;
+    height: 3pc;
+    margin-left: 20pc;
+}
+
+
+.footer {
+    background-color: antiquewhite;
+}
+
+.footer .data ul li{
+    color: black;
+    list-style-type: none;
+}
